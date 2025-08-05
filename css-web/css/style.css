@@ -1,0 +1,190 @@
+body {
+    background-color: #e5ebe9;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+hr {
+    border-width: 9px;
+    border-style: dotted none none;
+    width: 6%;
+    color: #43a18c;
+    margin-bottom: 50px;
+}
+
+header nav {
+    border: 0.1px hidden #d9efe9;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #d9efe9;
+    box-shadow: 3px 3px 10px #333;
+    display: flex;
+    justify-content: space-between;
+}
+
+#option {
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+
+nav img {
+    width: 80px;
+    margin: 5px 10%;
+}
+
+li {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+a:hover {
+    color: #275a59;
+    font-weight: 600;
+    transform: scale(1.05);
+} 
+
+#content {
+    border: 0.1px hidden #d9efe9;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #d9efe9;
+    box-shadow: 3px 3px 10px #333;
+    width: 100%;
+    /* translate: 0px -20px; */
+}
+
+#land {
+    margin: 0 auto;
+    width: 750px;
+    overflow: hidden;
+}
+
+#land img{
+    width: 100%;  
+    vertical-align: middle; 
+}
+
+.general_color_1 {
+    color: #45b29a;
+}
+
+.introduction {
+    text-align: center;
+    color: #45b29a;
+}
+
+.introduction h2 {
+    font-size: 650%;
+    font-family: "Meow Script", cursive;
+    font-weight: 580;
+    font-style: normal;
+    transition: transform 0.5 case;
+}
+
+.introduction p {
+    font-size: 140%;
+    font-weight: 550;
+    translate: 0px -50px;
+}
+
+.introduction h2:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 20px #165741);
+}
+
+.introduction p:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 20px #165741);
+}
+
+#could {
+    position: relative;
+}
+
+.c1 {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    transform: translate(40%, 200%);
+}
+
+.c2 {
+    position: absolute;
+    right: 10%;
+}
+
+#about_me {
+    text-align: center;
+    translate: 0px 100px;
+    margin-bottom: 150px;
+}
+
+#about_me img {
+    width: 220px;
+}
+
+#intro h2 {
+    font-size: 200%;
+    font-family: "Meow Script", cursive;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#intro p {
+    margin: 0 auto;
+    width: 35%;
+    font-size: 120%;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ability {
+    margin: 5% 20%;
+    text-align: center;
+}
+
+#ability h1 {
+    font-size: 36px;
+}
+
+#ability .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#ability img{
+    height: 20;
+    width: 150px;
+}
+
+#ability .text {
+    font-size: 20px;
+    width: 30%;
+    text-align: left;
+}
+footer {
+    width: 100vw;
+    background-color: #b0f3ce;
+    padding: 3rem 0;
+    text-align: center;
+    margin: 0
+}
+
+footer nav ul {
+    color: #17886f;;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    translate: 0 -20px;
+}
+
+.script {
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: #d9efe9;
+    font-size: 24px;    
+}
